@@ -23,15 +23,15 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Qi Chen</o:Author>
   <o:LastAuthor>Qi Chen</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>1930</o:TotalTime>
-  <o:Created>2024-02-22T07:27:00Z</o:Created>
-  <o:LastSaved>2024-02-22T07:27:00Z</o:LastSaved>
+  <o:TotalTime>1942</o:TotalTime>
+  <o:Created>2024-02-21T08:58:00Z</o:Created>
+  <o:LastSaved>2024-02-21T08:58:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>397</o:Words>
-  <o:Characters>2268</o:Characters>
-  <o:Lines>18</o:Lines>
-  <o:Paragraphs>5</o:Paragraphs>
-  <o:CharactersWithSpaces>2660</o:CharactersWithSpaces>
+  <o:Words>478</o:Words>
+  <o:Characters>2725</o:Characters>
+  <o:Lines>22</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3197</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -42,6 +42,8 @@ w\:* {behavior:url(#default#VML);}
 <link rel=colorSchemeMapping href="lab3%20Write-up_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -1532,6 +1534,12 @@ span.IntenseQuoteChar
 	mso-themecolor:accent1;
 	mso-themeshade:191;
 	font-style:italic;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -2309,11 +2317,12 @@ Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Since the robot needs 2 Time of Flight sensor,
-we need to enable them to run in parallel. But they have the same hardware
-address. The solution to this is to turn off one of them first by set the XSHUT
-pin(which is ) to low. Then change the address of the other one. Finally, turn
-the first sensor back ON. </p>
+</span></span></span><![endif]>Since the robot needs <span class=GramE>2 Time</span>
+of Flight sensor, we need to enable them to run in parallel. But they have the
+same hardware address. The solution to this is to turn off one of them first by
+<span class=GramE>set</span> the XSHUT <span class=GramE>pin(</span>which is )
+to low. Then change the address of the other one. Finally, turn the first
+sensor back ON. </p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
@@ -2344,28 +2353,20 @@ style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="_x0000_i1031" type="#_x0000_t75" alt="A diagram of a circuit board&#10;&#10;Description automatically generated"
+</v:shapetype><v:shape id="_x0000_i1032" type="#_x0000_t75" alt="A diagram of a circuit board&#10;&#10;Description automatically generated"
  style='width:442.8pt;height:244.8pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="lab3%20Write-up_files/image001.png" o:title="A diagram of a circuit board&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=590 height=326
 src="lab3%20Write-up_files/image002.png"
 alt="A diagram of a circuit board&#10;&#10;Description automatically generated"
-v:shapes="_x0000_i1031"><![endif]></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
-auto;text-indent:-.25in;mso-list:l7 level2 lfo2'><![if !supportLists]><span
-style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
-style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span><![endif]>The QWIIC’s 4 wires are in turn: red 3.3V, black
-GND, blue SDA, orange SCL, as the sketch shown. </p>
+v:shapes="_x0000_i1032"><![endif]></span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto;
 text-indent:-.25in;mso-list:l7 level2 lfo2'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span><![endif]><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+</span></span></span><![endif]>The QWIIC’s 4 wires are in turn: red 3.3V, black
+GND, blue SDA, orange SCL, as the sketch shown. </p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2385,14 +2386,14 @@ auto;text-indent:-.25in;mso-list:l7 level2 lfo2'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="_x0000_i1030" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;Description automatically generated"
+ id="_x0000_i1031" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;Description automatically generated"
  style='width:366pt;height:390pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="lab3%20Write-up_files/image003.png" o:title="A screenshot of a computer&#10;&#10;Description automatically generated"
   croptop="13697f" cropright="39571f"/>
 </v:shape><![endif]--><![if !vml]><img width=488 height=520
 src="lab3%20Write-up_files/image004.jpg"
 alt="A screenshot of a computer&#10;&#10;Description automatically generated"
-v:shapes="_x0000_i1030"><![endif]></span></p>
+v:shapes="_x0000_i1031"><![endif]></span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto;
 text-indent:-.25in;mso-list:l7 level2 lfo2'><![if !supportLists]><span
@@ -2406,8 +2407,8 @@ style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 style='mso-fareast-font-family:等线;mso-fareast-theme-font:minor-latin;
 mso-bidi-font-family:等线;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></b><![endif]><b>Contrast between different max-range
-modes<o:p></o:p></b></p>
+</span></span></span></b><![endif]><b>Contrast between different max-range <span
+class=GramE>modes</span><o:p></o:p></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
 auto;text-indent:-.25in;mso-list:l7 level2 lfo2'><![if !supportLists]><span
@@ -2452,10 +2453,15 @@ high speeds, and not capable of errors. </p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
 auto;text-indent:-.25in;mso-list:l7 level2 lfo2'><![if !supportLists]><span
-style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#2E75B6;mso-themecolor:accent5;mso-themeshade:191;mso-style-textfill-fill-color:
+#2E75B6;mso-style-textfill-fill-themecolor:accent5;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span><![endif]><span style='color:#767171;mso-themecolor:background2;
-mso-themeshade:128'>Middle distance mode is removed from the command library. </span></p>
+</span></span></span><![endif]><span style='color:#2E75B6;mso-themecolor:accent5;
+mso-themeshade:191;mso-style-textfill-fill-color:#2E75B6;mso-style-textfill-fill-themecolor:
+accent5;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'>Middle distance mode is removed from the command library. <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
 auto;text-indent:-.25in;mso-list:l7 level2 lfo2'><![if !supportLists]><span
@@ -2470,29 +2476,35 @@ work better in my robot. </p>
 style='mso-fareast-font-family:等线;mso-fareast-theme-font:minor-latin;
 mso-bidi-font-family:等线;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></b><![endif]><b>Test the chosen mode<o:p></o:p></b></p>
+</span></span></span></b><![endif]><b>Test the chosen <span class=GramE>mode</span><o:p></o:p></b></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
 auto;text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="_x0000_i1029" type="#_x0000_t75" alt="A white background with black text&#10;&#10;Description automatically generated with medium confidence"
- style='width:451.2pt;height:273pt;visibility:visible;mso-wrap-style:square'>
+ id="_x0000_i1030" type="#_x0000_t75" alt="A white background with black text&#10;&#10;Description automatically generated with medium confidence"
+ style='width:577.8pt;height:349.2pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="lab3%20Write-up_files/image005.png" o:title="A white background with black text&#10;&#10;Description automatically generated with medium confidence"/>
-</v:shape><![endif]--><![if !vml]><img width=602 height=364
+</v:shape><![endif]--><![if !vml]><img width=770 height=466
 src="lab3%20Write-up_files/image006.png"
 alt="A white background with black text&#10;&#10;Description automatically generated with medium confidence"
-v:shapes="_x0000_i1029"><![endif]></span></p>
+v:shapes="_x0000_i1030"><![endif]></span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto;
-text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Test result: </p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:1.5in;mso-add-space:auto;
+text-indent:-.25in;mso-list:l3 level3 lfo8'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]>Using 2 sensors, set sensor 1 to short mode, and
 the other one uses long mode; put both of them 16 millimeters height from the
-table, observe and compare their data, I found that the one using short mode in
-deed have higher repeatability and accuracy. </p>
+table, observe and compare their data, I found that the one using short mode <span
+class=GramE>in deed</span> have higher repeatability and accuracy. </p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2500,32 +2512,73 @@ deed have higher repeatability and accuracy. </p>
 style='mso-fareast-font-family:等线;mso-fareast-theme-font:minor-latin;
 mso-bidi-font-family:等线;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></b><![endif]><b>2 ToF Sensors work in parallel<o:p></o:p></b></p>
+</span></span></span></b><![endif]><b>2 <span class=SpellE>ToF</span> Sensors
+work in <span class=GramE>parallel</span><o:p></o:p></b></p>
 
 <p class=MsoListParagraphCxSpMiddle><o:p>&nbsp;</o:p></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto;
-text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="_x0000_i1028" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;Description automatically generated"
+ id="_x0000_i1029" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;Description automatically generated"
  style='width:448.2pt;height:462pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="lab3%20Write-up_files/image007.png" o:title="A screenshot of a computer&#10;&#10;Description automatically generated"
   cropright="41314f"/>
 </v:shape><![endif]--><![if !vml]><img width=598 height=616
 src="lab3%20Write-up_files/image008.png"
 alt="A screenshot of a computer&#10;&#10;Description automatically generated"
-v:shapes="_x0000_i1028"><![endif]></span></p>
+v:shapes="_x0000_i1029"><![endif]></span></p>
 
-<p class=MsoNormal style='margin-left:.5in'><o:p>&nbsp;</o:p></p>
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><o:p>&nbsp;</o:p></p>
 
-<p class=MsoListParagraph style='margin-left:1.0in;mso-add-space:auto;
-text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;
+line-height:normal;mso-list:l3 level2 lfo8'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span><![endif]>As the serial monitor shown above, the 2 ToF
-Sensors are working in parallel and are able to read data simultaneously now.</p>
+</span></span></span><![endif]>Implementation: </p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;
+line-height:normal;mso-list:l3 level3 lfo8'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]>As discussed in the prelab section, in the setup
+function, I added:</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;
+line-height:normal;mso-list:l3 level3 lfo8'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" alt="A screen shot of a computer code&#10;&#10;Description automatically generated"
+ style='width:264pt;height:157.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="lab3%20Write-up_files/image009.png" o:title="A screen shot of a computer code&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img width=352 height=210
+src="lab3%20Write-up_files/image010.png"
+alt="A screen shot of a computer code&#10;&#10;Description automatically generated"
+v:shapes="_x0000_i1028"><![endif]></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;
+line-height:normal;mso-list:l3 level2 lfo8'><![if !supportLists]><span
+style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Result verification:</p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;
+line-height:normal;mso-list:l3 level3 lfo8'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]>As the serial monitor shown above, the 2 <span
+class=SpellE>ToF</span> Sensors are working in parallel and <span class=GramE>are
+able to</span> read data simultaneously, measuring distance from different <span
+class=GramE>direction</span>.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2533,20 +2586,47 @@ Sensors are working in parallel and are able to read data simultaneously now.</p
 style='mso-fareast-font-family:等线;mso-fareast-theme-font:minor-latin;
 mso-bidi-font-family:等线;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span></b><![endif]><b>Keep Artemis busy by printing time<o:p></o:p></b></p>
+</span></span></span></b><![endif]><b>Keep Artemis busy by printing <span
+class=GramE>time</span><o:p></o:p></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
+style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Implementation:</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.5in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l0 level3 lfo7'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1027" type="#_x0000_t75" alt="A white background with black text&#10;&#10;Description automatically generated"
+ style='width:451.2pt;height:89.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="lab3%20Write-up_files/image011.png" o:title="A white background with black text&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img width=602 height=119
+src="lab3%20Write-up_files/image012.png"
+alt="A white background with black text&#10;&#10;Description automatically generated"
+v:shapes="_x0000_i1027"><![endif]></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
 auto;text-indent:-.25in;mso-list:l0 level2 lfo7'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="_x0000_i1027" type="#_x0000_t75" alt="A white background with black text&#10;&#10;Description automatically generated"
- style='width:451.2pt;height:89.4pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="lab3%20Write-up_files/image009.png" o:title="A white background with black text&#10;&#10;Description automatically generated"/>
-</v:shape><![endif]--><![if !vml]><img width=602 height=119
-src="lab3%20Write-up_files/image010.png"
-alt="A white background with black text&#10;&#10;Description automatically generated"
-v:shapes="_x0000_i1027"><![endif]></span></p>
+</span></span></span><![endif]>Approach:</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.5in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l0 level3 lfo7'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]>To make Artemis print time when there’s no any available
+data, I modified the example code, called the <span class=SpellE><span
+class=GramE>checkForDataReady</span></span><span class=GramE>(</span>) function
+on <span class=SpellE>ToF</span> sensor2 in the while loop’s condition so the
+while loop only continues when neither of the sensor <span class=GramE>have</span>
+data ready. The while loop body is printing time, as expected. </p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
 auto;text-indent:-.25in;mso-list:l0 level2 lfo7'><![if !supportLists]><span
@@ -2555,9 +2635,9 @@ style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1026" type="#_x0000_t75" alt="A screen shot of a computer&#10;&#10;Description automatically generated"
  style='width:451.2pt;height:402pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="lab3%20Write-up_files/image011.png" o:title="A screen shot of a computer&#10;&#10;Description automatically generated"/>
+ <v:imagedata src="lab3%20Write-up_files/image013.png" o:title="A screen shot of a computer&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=602 height=536
-src="lab3%20Write-up_files/image012.png"
+src="lab3%20Write-up_files/image014.png"
 alt="A screen shot of a computer&#10;&#10;Description automatically generated"
 v:shapes="_x0000_i1026"><![endif]></span></p>
 
@@ -2565,17 +2645,31 @@ v:shapes="_x0000_i1026"><![endif]></span></p>
 auto;text-indent:-.25in;mso-list:l0 level2 lfo7'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Observation: </p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.5in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l0 level3 lfo7'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]>The Artemis speed is 5.56 milliseconds per loop,
-and that of ToF measurements is 106 milliseconds per reading. </p>
+and that of <span class=SpellE>ToF</span> measurements is 106 milliseconds per reading.
+</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
 auto;text-indent:-.25in;mso-list:l0 level2 lfo7'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Conclusion: </p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.5in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l0 level3 lfo7'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]>As the Serial monitor shows, most of the lines
-are time, which means clock speed of Artemis is much faster than speed of ToF
-sensor. The measurement time used by ToF sensors are the main constrain to our
-speed. </p>
+are time, which means clock speed of Artemis is much faster than speed of <span
+class=SpellE>ToF</span> sensor. The measurement time used by <span
+class=SpellE>ToF</span> sensors <span class=GramE>are</span> the main constrain
+to our speed. </p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo8'><![if !supportLists]><b><span
 style='mso-fareast-font-family:等线;mso-fareast-theme-font:minor-latin;
@@ -2591,9 +2685,9 @@ style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;Description automatically generated"
  style='width:451.2pt;height:445.8pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="lab3%20Write-up_files/image013.png" o:title="A screenshot of a computer&#10;&#10;Description automatically generated"/>
+ <v:imagedata src="lab3%20Write-up_files/image015.png" o:title="A screenshot of a computer&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=602 height=594
-src="lab3%20Write-up_files/image014.png"
+src="lab3%20Write-up_files/image016.png"
 alt="A screenshot of a computer&#10;&#10;Description automatically generated"
 v:shapes="Picture_x0020_1"><![endif]></span></p>
 
@@ -2601,11 +2695,19 @@ v:shapes="Picture_x0020_1"><![endif]></span></p>
 auto;text-indent:-.25in;mso-list:l3 level2 lfo8'><![if !supportLists]><span
 style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Interpretation: </p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.5in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l3 level3 lfo8'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]>In the printing of the serial monitor: ‘end’
-represents that the string parsing of the ToF data are ended successfully,
-which is followed by the time stamp and ToF data. The number after the data is
-the number of the data sent from the board; the screenshot represents the
-transmission of 8 ToF data are transmitted successfully. </p>
+represents that the string parsing of the <span class=SpellE>ToF</span> data
+are ended successfully, which is followed by the time stamp and <span
+class=SpellE>ToF</span> data. The number after the data is the number of the
+data sent from the board; the screenshot represents the transmission of 8 <span
+class=SpellE>ToF</span> <span class=GramE>data</span> are transmitted
+successfully. </p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
 
