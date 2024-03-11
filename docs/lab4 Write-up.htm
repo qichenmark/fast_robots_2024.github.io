@@ -2047,7 +2047,8 @@ mso-bidi-font-family:等线;mso-bidi-theme-font:minor-latin'><span style='mso-li
 					</span></span></span>
 			<![endif]><span style='mso-spacerun:yes'> </span>After
 			setting up the connection between the motor drivers and Artemis, I tested its
-			functionality with the following codes:
+			functionality with the following codes. I first set all the pins used to OUTPUT in the setup, then in the
+			loop I keep negative pin 3,7 in 0 while switch positive pin 2,6 between 0 and 255, every half second.
 		</p>
 
 		<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
@@ -2104,7 +2105,8 @@ mso-bidi-font-family:等线;mso-bidi-theme-font:minor-latin'><span style='mso-li
 						style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					</span></span></span>
 			<![endif]>After connecting one of the motors with the
-			Artemis and the driver, I can power the wheels on one side:
+			Artemis and the driver, I can power the wheels on one side. As the video shows, I used pin 6,7 part of the
+			code shown above.
 		</p>
 
 		<p class=MsoListParagraphCxSpMiddle>
@@ -2130,7 +2132,7 @@ mso-bidi-font-family:等线;mso-bidi-theme-font:minor-latin'><span style='mso-li
 						style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					</span></span></span>
 			<![endif]>Then do the same thing for the other side, and connect
-			the motor driver to battery rather than the power supply:
+			the motor driver to battery rather than the power supply, using the whole code snippet shown in step 3:
 		</p>
 
 		<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
@@ -2175,7 +2177,7 @@ auto;text-indent:-.25in;mso-list:l1 level2 lfo2'>
 					style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 					</span></span></span>
 			<![endif]>Started from 50, I gradually decrease the PWM,
-			and the lowest PWM that allows the car to move a bit is 30:
+			and the lowest PWM that allows the car to move is 30:
 		</p>
 
 		<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
