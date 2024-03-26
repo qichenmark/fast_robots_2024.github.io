@@ -5,3 +5,4 @@
 * [lab3](<./lab3 Write-up.htm>)
 * [lab4](<./lab4 Write-up.htm>)
 * [lab5](<./lab5 Write-up.htm>)
+* [lab6](<./lab6 Write-up.htm>)
