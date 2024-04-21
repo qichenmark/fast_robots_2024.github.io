@@ -7,3 +7,6 @@
 * [lab5](<./lab5 Write-up.htm>)
 * [lab6](<./lab6 Write-up.htm>)
 * [lab7](<./lab7 Write-up.htm>)
+* [lab8](<./lab7 Write-up.htm>)
+* [lab9](<./lab7 Write-up.htm>)
+* [lab10](<./lab10 Write-up.htm>)
