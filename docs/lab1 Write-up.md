@@ -3,7 +3,7 @@ layout: default
 ---
           
 
-**Part 1**
+# Part 1
 
 ·       **Example: Blink it Up**: verify and upload, and confirmed the light is blinking.
 
@@ -34,13 +34,13 @@ Description automatically generated](lab1%20Write-up_files/image008.png)
           ![A screenshot of a computer
 Description automatically generated](lab1%20Write-up_files/image010.png)
 
-**Part 2**
+# Part 2
 
-**Goal**
+## Goal
 
           Understanding that Artemis can use Bluetooth to communicate with computer in terms of Characteristics; There’re multiple Characteristics, such as float Characteristics and string Characteristics. We can use ble.receive\_string(uuid) to receive a known message, but in lots of cases we don’t know if there is a message await us, so it’s better to use ble.start\_notify(uuid, notification\_handler), which continuously listen to messages from the given uuid.
 
-**Prelab**
+## Prelab
 
 Following the instructions in Lab1 course page, running following commands in powershell to get the environment ready:
 
@@ -125,7 +125,7 @@ The first method(sending while reading data) is more than 1000 slower than the s
 
 386kB of RAM means the red board can store 48250 time stamps (assume time is 7 bytes long and delimiter is 1 byte long) or 55143 temperature readings (assume the reading is 6 bytes long and delimiter is 1 byte long).
 
-**Conclusion, Challenges,** **and Solutions**
+## Conclusion, Challenges, and Solutions
 
 1.     When I try to implemented the notification handler, I didn’t realize that the uuid passed into the handler is GATT Characteristic rather than string, and that the way to get the string uuid is to uuid.uuid instead of uuid.uuid(), as .uuid is defined as a property, not a function; after reading forum and asking in Ed, I find these facts, and successfully implemented the notification handler which is able to deal both float and string.
 
