@@ -1,6 +1,6 @@
 # Qi's Fast Robots (2024SP) gallery
 ## Labs
-* [lab1](<./lab1 Write-up.html>)
+* [lab1](<./lab1 Write-up.md>)
 * [lab2](<./Lab2 Write-up.htm>)
 * [lab3](<./lab3 Write-up.htm>)
 * [lab4](<./lab4 Write-up.htm>)
