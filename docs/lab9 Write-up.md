@@ -25,10 +25,10 @@ else
 
 ## Data collection and saving
 * Point1:
-* <iframe width="630" height="470" src="https://youtu.be/jm7cUhabQ3s" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+* <iframe width="630" height="470" src="https://youtu.be/jm7cUhabQ3s" allow="autoplay; encrypted-media"></iframe> 
 
 * Point2:
-* <iframe width="630" height="470" src="https://youtu.be/iW6pX8hRw8c" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+* <iframe width="630" height="470" src="https://youtu.be/iW6pX8hRw8c"></iframe>   
 
 * Point3:
 * <iframe width="630" height="470" src="https://youtu.be/n5eeKJdSeoM" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
