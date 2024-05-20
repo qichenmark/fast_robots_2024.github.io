@@ -7,8 +7,8 @@
 * [lab5](<./lab5 Write-up.htm>)
 * [lab6](<./lab6 Write-up.htm>)
 * [lab7](<./lab7 Write-up.htm>)
-* [lab8](./lab8 Write-up.md)
-* [lab9](./lab9 Write-up.md)
+* [lab8](./lab8/lab8 Write-up.md)
+* [lab9](./lab9/lab9 Write-up.md)
 * [lab10](<./lab10 Write-up.htm>)
 * [lab11](./lab11/lab11 Write-up.md)
 <!-- * [lab11](./lab11 Write-up.md) -->
