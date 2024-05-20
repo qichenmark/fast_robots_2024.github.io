@@ -25,16 +25,16 @@ else
 
 ## Data collection and saving
 * Point1:
-* <iframe width="630" height="470" src="https://youtu.be/jm7cUhabQ3s" allow="autoplay; encrypted-media"></iframe> 
+* <iframe width="630" height="470" src="https://www.youtube.com/embed/jm7cUhabQ3s" allow="autoplay; encrypted-media"></iframe> 
 
 * Point2:
-* <iframe width="630" height="470" src="https://youtu.be/iW6pX8hRw8c"></iframe>   
+* <iframe width="630" height="470" src="https://www.youtube.com/embed/iW6pX8hRw8c"></iframe>   
 
 * Point3:
-* <iframe width="630" height="470" src="https://youtu.be/n5eeKJdSeoM" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+* <iframe width="630" height="470" src="https://www.youtube.com/embed/n5eeKJdSeoM" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 * Point4:
-* <iframe width="630" height="470" src="https://youtu.be/bpoCBWbaYEk" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+* <iframe width="630" height="470" src="https://www.youtube.com/embed/bpoCBWbaYEk" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 
 * Then, I used the following python code to save the readings to csv files:
