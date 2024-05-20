@@ -1,4 +1,4 @@
-# Lab 11: Localization(real)
+# Lab 11: Localization
 
 ## Overview
 * Goal: Find out the current location of car using the readings from Time-Of-Flight sensor, accelerometer, and gyroscope. 
@@ -8,9 +8,12 @@
   3. Apply the Bayes Fitler to get the final probabilty.
   4. consider the grid with the highest probability as the current location. 
 * Implementation:
-  * Send command to let the car rotate in place, get the TOF readings like the Lab9. Still, read TOF data every 10 degree. This is higher than the requirement specified in handout, it can bring higher accuracy. 
+  * Send command to let the car rotate in place, get the TOF readings like the Lab9. Still, read TOF data every 10 degree. This is higher than the requirement specified in handout, it brings higher accuracy. 
   * Save them in ndarray for later use. 
   * ![alt text](image.png)
+  * Add the syncio to achieve synchronous:
+  * ![alt text](image-1.png)
+  * ![alt text](image-2.png)
 ## Chanllenges
 * Synchronization
   * Figure how to use the "async" and "await" with the correct syntax can be tricky. 

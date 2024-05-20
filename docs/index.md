@@ -11,4 +11,4 @@
 * [lab9](./lab9/lab9 Write-up.md)
 * [lab10](<./lab10 Write-up.htm>)
 * [lab11](./lab11/lab11 Write-up.md)
-<!-- * [lab11](./lab11 Write-up.md) -->
+<!-- * [lab12](./lab12/lab12 Write-up.md) -->
