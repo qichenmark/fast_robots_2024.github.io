@@ -66,8 +66,8 @@ else
 
 ## Showcase:
 * Flip in the lab:
-  * <video controls src="Flip in lab.mp4" title="flip in the lab"></video>
+  * <video controls src="Flip in lab.mp4" title="flip in the lab" width="650" height="470"></video>
 * Flip on rough ground:
-  * <video controls src="Flip on rough ground.mp4" title="flip on rough ground"></video>
+  * <video controls src="Flip on rough ground.mp4" title="flip on rough ground" width="650" height="470" ></video>
 
 
