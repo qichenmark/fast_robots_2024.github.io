@@ -70,3 +70,8 @@ else
 * ![Point4](image-7.png)  
 * ![alt text](image-11.png)
 
+* Combine all of them together:
+* ![alt text](image-12.png)
+* Then draw the lines to connect the dots:
+* ![alt text](output.png)
+
